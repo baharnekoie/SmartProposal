@@ -13,7 +13,7 @@ app = FastAPI(title="SmartProposal Backend")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,  # frontend URL
+    allow_origins=origins,  # frontend URL و
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
